@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo2.png";
 
 const serviceLinks = [
   { label: "Roof Removal", to: "/services/roof-removal" },
