@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const serviceLinks = [
   { label: "Roof Removal", to: "/services/roof-removal" },
@@ -23,13 +24,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-md bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-serif font-bold text-lg">G</span>
-              </div>
-              <div>
-                <span className="text-foreground font-serif font-bold text-lg block">GUTAMA</span>
-                <span className="text-muted-foreground text-[10px] tracking-[0.2em] uppercase">Home Improvement</span>
-              </div>
+              <img src={logo} alt="Gutama Home Improvement" className="h-20 w-auto object-contain" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Premium roofing & exterior solutions built to last. Licensed and fully insured contractor serving Essex County, NJ.

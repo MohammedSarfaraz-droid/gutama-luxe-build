@@ -5,6 +5,7 @@ import { services } from "@/data/services";
 import ScrollReveal from "@/components/ScrollReveal";
 
 import heroBg from "@/assets/hero-bg.jpg";
+import heroBg2 from "@/assets/hero-bg2.png";
 import beforeRoof from "@/assets/before-roof.jpg";
 import afterRoof from "@/assets/after-roof.jpg";
 import beforeSiding from "@/assets/before-siding.jpg";
@@ -20,7 +21,7 @@ import aboutAerial from "@/assets/about-aerial.jpg";
 const HeroSection = () => (
   <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0">
-      <img src={heroBg} alt="Luxury home with premium roof installation" className="w-full h-full object-cover" />
+      <img src={heroBg2} alt="Luxury home with premium roof installation" className="w-full h-full object-cover" />
       <div className="absolute inset-0 bg-background/70" />
       <div className="absolute inset-0 opacity-30" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, hsl(var(--primary) / 0.4), transparent 50%), radial-gradient(circle at 80% 50%, hsl(var(--gold) / 0.3), transparent 50%)" }} />
     </div>
