@@ -5,7 +5,7 @@ import { services } from "@/data/services";
 import ScrollReveal from "@/components/ScrollReveal";
 
 import heroBg from "@/assets/hero-bg.jpg";
-import heroBg2 from "@/assets/hero-bg2.png";
+import heroBg2 from "@/assets/hero-bg3.png";
 import beforeRoof from "@/assets/before-roof.jpg";
 import afterRoof from "@/assets/after-roof.jpg";
 import beforeSiding from "@/assets/before-siding.jpg";
