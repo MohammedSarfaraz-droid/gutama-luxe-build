@@ -24,7 +24,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Gutama Home Improvement" className="h-28 w-auto object-contain" />
+              <img src={logo} alt="Gutama Home Improvement" className="h-36 w-auto object-contain" />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
               Premium roofing & exterior solutions built to last. Licensed and fully insured contractor serving Essex County, NJ.
